@@ -1,0 +1,11 @@
+.gradient{
+    background: linear-gradient(
+        to right ,
+        RGB(235 244 252),
+        RGB(182 191 201)
+    );
+}
+.err-img{
+    width: 500px;
+    height: 1000px;
+}
