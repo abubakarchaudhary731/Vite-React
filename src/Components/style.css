@@ -1,3 +1,16 @@
+::-webkit-scrollbar{
+    width: 0.9rem;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(24,24,29);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border: 5px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+}
+
 .gradient{
     background: linear-gradient(
         to right ,
@@ -5,7 +18,40 @@
         RGB(182 191 201)
     );
 }
-.err-img{
-    width: 500px;
-    height: 1000px;
+.line-space{
+    line-height: 15px;
+}
+.container{
+    height: 70px;
+    width: 60%;
+    transform: translateY(50%);
+    background: linear-gradient(
+        to right ,
+        rgb(199,208,217),
+        RGB(235 244 252)
+    );
+}
+i{
+    font-size: 11pt;
+}
+a{
+    color: RGB(25 27 30);
+    text-decoration: none;
+}
+.social-links{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.social-links:hover{
+    transform: scale(1.1);
+
+}
+.bg-footer{
+    background: linear-gradient(
+        to right,
+        RGB(17 83 150),
+        RGB(214 233 252)
+    );
+    margin-bottom: 0px;
 }
