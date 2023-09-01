@@ -10,13 +10,14 @@
     border-radius: 9px;
     background-clip: content-box;
 }
-
+ 
 .gradient{
     background: linear-gradient(
         to right ,
         RGB(235 244 252),
         RGB(182 191 201)
     );
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .line-space{
     line-height: 15px;
@@ -30,6 +31,7 @@
         rgb(199,208,217),
         RGB(235 244 252)
     );
+    font-family: Arial, Helvetica, sans-serif;
 }
 i{
     font-size: 11pt;
@@ -54,4 +56,5 @@ a{
         RGB(214 233 252)
     );
     margin-bottom: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
